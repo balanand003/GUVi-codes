@@ -1,5 +1,7 @@
-a,b=input().split()
-a=str(a)
-b=int(b)
-for i in range(0,b):
-    print(a)
+n,m=map(str,input().split())
+if(n==m):
+  print(n)
+elif(n>m):
+  print(n)
+elif(n<m):
+  print(m)
